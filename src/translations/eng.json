@@ -1,9 +1,9 @@
 {
-    "home": "Home",
-    "about-me": "About me",
-    "skills": "Skills",
-    "portfolio": "Portfolio",
-    "contacts": "Contacts",
-    "name": "Polina <br> Serebro",
-    "name_descr": "Web-developer <br> 21 years old, Russia"
+    "header_home": "Home",
+    "header_about-me": "About me",
+    "header_skills": "Skills",
+    "header_portfolio": "Portfolio",
+    "header_contacts": "Contacts",
+    "main_name": "Polina <br> Serebro",
+    "main_descr": "Web-developer <br> 21 years old, Russia"
   }

@@ -7,6 +7,8 @@ const rename = require("gulp-rename");
 const imagemin = require('gulp-imagemin');
 const htmlmin = require('gulp-htmlmin');
 const sourcemaps = require('gulp-sourcemaps');
+const webpHTML = require('gulp-webp-html');
+const webp = require('gulp-webp');
 
 gulp.task('server', function() {
 
@@ -78,4 +80,11 @@ gulp.task('images', function () {
         .pipe(gulp.dest("dist/img"))
         .pipe(browserSync.stream());
 });
-gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'scripts', 'fonts', 'icons', 'html', 'images', 'translations'));
+
+gulp.task('webp', () =>
+    gulp.src('src/img/**/*')
+        .pipe(webp())
+        .pipe(gulp.dest('dist/img/webp'))
+);
+
+gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'scripts', 'fonts', 'icons', 'html', 'images', 'translations', 'webp'));

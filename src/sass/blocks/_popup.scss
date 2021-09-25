@@ -1,0 +1,48 @@
+.overlay {
+    position: fixed;
+    z-index: 2000;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+}
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    padding: 50px;
+    background-color: #fff;
+    svg {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        width: 25px;
+        height: 25px;
+        transition: 0.2s all;
+        cursor: pointer;
+        &:hover {
+            fill: var(--grey);
+        }
+    }
+    &__form {
+        width: 360px;
+        margin: auto;
+    }
+    input, textarea {
+        height: 50px;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 0 10px;
+        border-radius: 5px;
+        border: 2px solid var(--grey);
+    }
+    textarea {
+        height: 200px;
+        margin-bottom: 0px;
+        resize: none;
+    }
+}
+.overlay.hidden {
+    display: none;
+}

@@ -1,9 +1,9 @@
 {
-    "home": "Главная",
-    "about-me": "Про меня",
-    "skills": "Навыки",
-    "portfolio": "Портфолио",
-    "contacts": "Контакты",
-    "name": "Полина <br> Серебрякова",
-    "name_descr": "Веб-разработчик <br> 21 год, Ростов-на-Дону"
+    "header_home": "Главная",
+    "header_about-me": "Про меня",
+    "header_skills": "Навыки",
+    "header_portfolio": "Портфолио",
+    "header_contacts": "Контакты",
+    "main_name": "Полина <br> Серебрякова",
+    "main_descr": "Веб-разработчик <br> 21 год, Ростов-на-Дону"
   }

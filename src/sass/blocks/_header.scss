@@ -1,0 +1,28 @@
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: #FFF;
+    ul {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0;
+        list-style-type: none;
+        border-bottom: 1px solid #000;
+        padding: 33px 0;
+        a {
+            color: var(--grey);
+            transition: 0.1s all;
+            &:hover {
+                color: #000;
+                text-decoration: none;
+            }
+        }
+        a.active {
+            color: #000;
+        }
+    }
+}
+.header.scrolled {
+    background-color: #f6f6f6;
+}

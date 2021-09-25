@@ -1,0 +1,39 @@
+.contacts {
+    padding: 120px 0;
+    &__button {
+        display: block;
+        margin: 30px auto 0 auto;
+        height: 42px;
+        width: 180px;
+        background-color: #000;
+        border-radius: 21px;
+        border: none;
+        color: #fff;
+        transition: 0.3s all;
+        &:hover {
+            background-color: var(--grey);
+        }
+    }
+    &__text {
+        margin-top: 45px;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 500;
+        text-align: center;
+        color: var(--grey)
+    }
+    &__wrapper {
+        margin-top: 90px;
+        text-align: center;
+        svg {
+            margin: 0 30px;
+            width: 40px;
+            height: auto;
+            &:hover {
+                path {
+                    fill: var(--grey);
+                }
+            }
+        }
+    }
+}

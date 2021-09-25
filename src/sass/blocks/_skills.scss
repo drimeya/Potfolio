@@ -1,0 +1,51 @@
+.skills {
+    padding: 90px 0 110px 0;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 90px;
+        justify-content: center;
+    }
+    &__item {
+        width: 160px;
+        margin: 0 45px;
+    }
+    &__name {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: var(--grey);
+        margin-top: 25px;
+    }
+    &__descr {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        svg {
+            margin: 0 5px;
+            path.colored {
+                fill: #000;
+            }
+        }
+    }
+    &__img-wrapper {
+        height: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        img {
+            width: 90px;
+        }
+    }
+    &__other-wrapper {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        img {
+            height: 70px;
+            width: 70px;
+            margin: 0 50px;
+        }
+    }
+}
