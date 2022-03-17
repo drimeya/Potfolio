@@ -96,7 +96,7 @@ jQuery(function($) {
 let popupBtn = document.querySelector('.btn'),
     close = document.querySelector('.close'),
     popup = document.querySelector('.overlay'),
-    submit = document.querySelector('.btn_submit')
+    submit = document.querySelector('.btn_submit');
 
 popupBtn.addEventListener('click', function () {
   popup.classList.remove('hidden');

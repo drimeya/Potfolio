@@ -23,14 +23,14 @@
     
         }
       });
-    }
+    };
     
     $.getLanguage = function (key) {
       if (typeof(LANGUAGE[key]) != 'undefined') {
         return LANGUAGE[key]; 
       }
       return key; 
-    }
+    };
 
     let btn = document.querySelector('.language-switcher__circle'),
     btnRu = document.querySelector('.ru'),
@@ -55,8 +55,8 @@
 jQuery(function($) {
 
   const section = $('section'),
-        nav = $('.header'),
-        navHeight = nav.outerHeight(); 
+        nav = $('.header');
+  let  navHeight = nav.outerHeight(); 
 
   window.addEventListener('orientationchange', function () {
       navHeight = nav.outerHeight();
@@ -96,14 +96,11 @@ jQuery(function($) {
 let popupBtn = document.querySelector('.btn'),
     close = document.querySelector('.close'),
     popup = document.querySelector('.overlay'),
-    submit = document.querySelector('.btn_submit')
+    submit = document.querySelector('.btn_submit');
 
 popupBtn.addEventListener('click', function () {
   popup.classList.remove('hidden');
 });
 close.addEventListener('click', function () {
   popup.classList.add('hidden');
-})
-close.addEventListener('click', function () {
-  popup.classList.add('hidden');
-})
+});
