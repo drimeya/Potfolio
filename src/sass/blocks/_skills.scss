@@ -8,7 +8,7 @@
     }
     &__item {
         width: 160px;
-        margin: 0 45px;
+        margin: 0 20px;
     }
     &__name {
         font-size: 14px;
@@ -16,17 +16,6 @@
         text-align: center;
         color: var(--grey);
         margin-top: 25px;
-    }
-    &__descr {
-        margin-top: 40px;
-        display: flex;
-        justify-content: center;
-        svg {
-            margin: 0 5px;
-            path.colored {
-                fill: #000;
-            }
-        }
     }
     &__img-wrapper {
         height: 130px;
@@ -45,7 +34,18 @@
         img {
             height: 70px;
             width: 70px;
-            margin: 0 50px;
+            margin: 0 30px;
         }
+    }
+    &__offtop-wrapper {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        img {
+            height: 40px;
+            width: 40px;
+            margin: 0 20px;
+        }  
     }
 }

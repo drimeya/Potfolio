@@ -2,33 +2,17 @@
     padding: 120px 0 100px 0;
     background-color: #F6F6F6;
     &__item {
-        margin-top: 25px;
+        margin-top: 80px;
         height: 200px;
         display: flex;
-        &:first-child {
-            margin-top: 70px;
-        }
     }
     &__pic {
         width: 300px;
-        margin-right: 100px;
-        flex-shrink: 0;
-        overflow: hidden;
-        img {
-            transform: translateY(0);
-            transition: 1s;
-        }
-        &:hover {
-            img {
-                transform: translateY(-100%)translateY(200px);
-                transition: 8s;
-            }
-        }
+        margin-right: 60px;
     }
     &__text {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
     }
     &__name {
         font-weight: 900;
@@ -61,7 +45,21 @@
             }
         }
     }
-
+    &__tehnologes {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    &__github {
+        font-size: 16px;
+        a {
+            color: #000;
+            font-size: 16px;
+            text-decoration: underline;
+        }
+    }
+    &__descr {
+        margin-top: auto; 
+    }
 }
 
 

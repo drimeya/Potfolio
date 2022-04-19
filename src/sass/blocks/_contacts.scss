@@ -23,17 +23,13 @@
         color: var(--grey)
     }
     &__wrapper {
-        margin-top: 90px;
+        margin-top: 40px;
         text-align: center;
-        svg {
+        img {
             margin: 0 30px;
-            width: 40px;
+            width: 60px;
             height: auto;
-            &:hover {
-                path {
-                    fill: var(--grey);
-                }
-            }
         }
     }
+
 }
