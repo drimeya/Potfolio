@@ -18,6 +18,9 @@ body {
     width: 950px;
     margin: 0 auto;
 }
+.hamburger {
+    display: none;
+}
 
 @import 'blocks/header';
 @import 'blocks/main';
@@ -28,3 +31,4 @@ body {
 @import 'blocks/portfolio';
 @import 'blocks/contacts';
 @import 'blocks/popup';
+@import 'media';
